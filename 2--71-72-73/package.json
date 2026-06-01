@@ -1,0 +1,47 @@
+{
+  "name": "bitcoin-puzzle72-solver",
+  "version": "1.0.0",
+  "description": "Bitcoin Puzzle #72 Random Search Solver - JavaScript/Node.js",
+  "main": "puzzle_solver.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node puzzle_solver.js",
+    "dev": "node --watch puzzle_solver.js",
+    "test": "node puzzle_solver.js --test",
+    "candidates": "ls -lah candidates/ && echo '---' && head -20 candidates/candidates_*.txt | tail -30",
+    "audit:safe": "npm audit --audit-level=moderate"
+  },
+  "keywords": [
+    "bitcoin",
+    "puzzle",
+    "ecdsa",
+    "cryptography",
+    "secp256k1",
+    "blockchain"
+  ],
+  "author": "recifecrypto",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recifecrypto/puzzle72-solver"
+  },
+  "dependencies": {
+    "elliptic": "^6.6.1",
+    "bs58": "^6.0.0",
+    "axios": "^1.7.9"
+  },
+  "overrides": {
+    "elliptic": "$elliptic"
+  },
+  "devDependencies": {},
+  "preferGlobal": false,
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ]
+}

@@ -1,0 +1,102 @@
+# ─────────────────────────────────────────
+# Dependencies & Package Managers
+# ─────────────────────────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+.venv/
+.env/
+venv/
+ENV/
+
+# ─────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.python-version
+
+# ─────────────────────────────────────────
+# Logs & Temporary Files
+# ─────────────────────────────────────────
+*.log
+puzzle*.log
+*.tmp
+*.temp
+progress.dat
+nohup.log
+*_background.log
+*.lock
+
+# ─────────────────────────────────────────
+# Generated/Cache Files
+# ─────────────────────────────────────────
+candidates/
+cache/
+.cache/
+backup_candidatos_*.tar.gz
+backup_candidatos_*.tar.gz.gpg
+puzzle*_FOUND.txt
+
+# ─────────────────────────────────────────
+# Data & Sensitive Information
+# ─────────────────────────────────────────
+*.jsonl
+*.json
+!package.json
+!pyproject.toml
+frases.txt
+privhex_output.txt
+resultado_puzzle.txt
+Total_output.txt
+logs/
+
+# ─────────────────────────────────────────
+# Environment & Configuration
+# ─────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─────────────────────────────────────────
+# IDE & Editor
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-workspace
+.project
+
+# ─────────────────────────────────────────
+# OS Files
+# ─────────────────────────────────────────
+Thumbs.db
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# ─────────────────────────────────────────
+# Build & Distribution
+# ─────────────────────────────────────────
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# ─────────────────────────────────────────
+# Testing & Coverage
+# ─────────────────────────────────────────
+.coverage
+htmlcov/
+.tox/
+
